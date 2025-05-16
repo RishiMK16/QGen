@@ -25,6 +25,19 @@ A Python-based tool that extracts text from PDF documents and generates question
    git clone https://github.com/yourusername/pdf-question-generator.git
    cd pdf-question-generator
 
+2. **Install dependencies**:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Download NLTK tokenizer data**:
+
+   ```python
+   import nltk
+   nltk.download('punkt')
+   ```
+
 
 ## 📁 Project Structure
 
